@@ -12,6 +12,12 @@ Hybrid Material for color scheme
 - vim-airline
 - vim-fugitive
 - vim-gitgutter
+- vim-jsx
+- vim-json
+- syntastic
+- emmet-vim
+- ctrlp.vim
+- ack.vim
 
 
 #### .vim
@@ -22,6 +28,12 @@ Hybrid Material for color scheme
     - vim-airline
     - vim-fugitive
     - vim-gitgutter
+    - vim-jsx
+    - vim-json
+    - syntastic
+    - emmet-vim
+    - ctrlp.vim
+    - ack.vim
 - colors
     - hybrid_material.vim
     
