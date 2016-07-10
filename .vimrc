@@ -32,7 +32,10 @@ set fileencoding=utf-8 encoding=utf-8
 set wrap
 set linebreak
 set ruler
-let g:airline_powerline_fonts = 1
+
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_powerline_fonts = 0
 
 set guioptions-=m
 set guioptions-=T                                                               "remove toolbar
