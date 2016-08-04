@@ -36,5 +36,6 @@ Hybrid Material for color scheme
     - ack.vim
 - colors
     - hybrid_material.vim
+    - material-neutral.vim
     
 .vimrc
