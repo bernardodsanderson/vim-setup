@@ -18,6 +18,8 @@ Hybrid Material for color scheme
 - emmet-vim (git clone https://github.com/mattn/emmet-vim.git)
 - ctrlp.vim (git clone https://github.com/ctrlpvim/ctrlp.vim.git)
 - ack.vim (git clone https://github.com/mileszs/ack.vim.git)
+- nerdtree-git-plugin (git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git)
+- vim-es6 (git clone https://github.com/isRuslan/vim-es6.git)
 
 
 #### .vim
@@ -34,6 +36,8 @@ Hybrid Material for color scheme
     - emmet-vim
     - ctrlp.vim
     - ack.vim
+    - nerdtree-git-plugin
+    - vim-es6
 - colors
     - hybrid_material.vim
     - material-neutral.vim
