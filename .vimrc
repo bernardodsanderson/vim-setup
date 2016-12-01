@@ -14,6 +14,8 @@ set cursorline
 set autoread
 set smartcase
 set ignorecase
+set expandtab
+set tabstop=2
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
