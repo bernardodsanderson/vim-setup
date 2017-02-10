@@ -13,6 +13,11 @@ u | Undo
 \ | Search
 A | Go to end of line and insert
 o | Go to next line and insert
+G | Go to end of file
+gg | Go to beginning of file
+zz | Move current line to the middle of the screen
+zt | Move current line to the top of the screen
+zb | Move current line to the bottom of the screen
 >> | Indent current line
 {number}>> | Indent {number} of lines
 { | Go back a paragraph
