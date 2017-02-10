@@ -1,3 +1,31 @@
+## Most Used
+
+motion  | description  
+------------- | ------------- 
+* | Toggle through words under cursor  
+^ | To the first character of the line  
+$ | To the last character of the line  
+w | Count words forward 
+W | Count words forward (different definition)
+e | Count forward to the end of word  
+b | Count words backward  
+u | Undo
+\ | Search
+A | Go to end of line and insert
+o | Go to next line and insert
+>> | Indent current line
+{number}>> | Indent {number} of lines
+{ | Go back a paragraph
+} | Go forward a paragraph
+y | Yank (copy)
+d{motion} | Delete
+p | Paste
+ci{brackets} | Change inside ", ', (), {}, [] or <>
+
+
+
+
+
 ## motions
 
 
