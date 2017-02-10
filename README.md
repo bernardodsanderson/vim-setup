@@ -1,4 +1,6 @@
-##motions
+## motions
+
+
 motion  | description  
 ------------- | ------------- 
 h | Count characters left  
@@ -26,12 +28,16 @@ gU{motion}| Make uppercase
 &lt;{motion} | Shift left  
 ={motion} | Auto-indent
 
-##buffer management
+## buffer management
+
+
 command  | description
 ------------- | ------------- 
 &lt;C-\^&gt; or &lt;C-6&gt; | Switch to the buffer you just left
 
-##split windows
+## split windows
+
+
 command  | description
 ------------- | ------------- 
 &lt;C-w&gt;s or :sp[lit] &lt;file&gt;| Split file horizontally.
@@ -44,7 +50,10 @@ command  | description
 :cl[ose]	&lt;C-w&gt;c | close the active window  
 :on[ly] &lt;C-w&gt;o	| keep only the active window, closing all others  
 
-##spelling
+## spelling
+
+
+
 command  | description
 ------------- | ------------- 
 ]s | Jump to next spelling error  
@@ -53,7 +62,10 @@ z= | Suggest corrections for current word
 zg | Add the current word to spell file  
 zw | Remove the current word from spell file  
 
-##code folding
+## code folding
+
+
+
 command  | description
 ------------- | ------------- 
 zf{motion} | folds code when "foldmethod" set to manual or "marker"  
@@ -63,7 +75,10 @@ zc| close fold at cursor
 zR| open all
 zM| close all
 
-##search and replace
+## search and replace
+
+
+
 command  | description
 ------------- | ------------- 
 :args \*\*/\*.txt | Multi-file Step 1) populate the argument list with the files you want to search
@@ -71,7 +86,10 @@ command  | description
 * |search for the word under the cursor
 
 
-##jumps
+## jumps
+
+
+
 command  | description
 ------------- | ------------- 
 :jumps | display the jump list
@@ -82,7 +100,9 @@ g; |jump backwards through the changes list
 g, |jump forwards through the changes list
 gf |jump to the file name under the cursor
 
-##changes
+## changes
+
+
 command  | description
 ------------- | ------------- 
 :changes | display the change list
@@ -90,7 +110,10 @@ g; |jump backwards through the changes list
 g, |jump forwards through the changes list
 gf |jump to the file name under the cursor
   
-##marks
+## marks
+
+
+
 command  | description
 ------------- | ------------- 
 :marks | display the marks list
@@ -103,7 +126,10 @@ m&lt;lower case&gt; |set a buffer bookmark
 :delmarks a,b,x,y|delete only marks a,b,x and y
 :delmarks!|delete all lower case marks
 
-##registers
+## registers
+
+
+
 command  | description
 ------------- | ------------- 
 :registers | display the register list
@@ -111,7 +137,9 @@ command  | description
 &quot;&lt;upper case register&gt;{motion} |append or use contents of register
 0|populated with last yanked text
 
-##macros
+## macros
+
+
 command  | description
 ------------- | ------------- 
 q{register} |start recording and store it in the specified register
@@ -119,7 +147,9 @@ q|stop recording
 {count}@{register}|execute specified macro count times
 
 
-##ctags
+## ctags
+
+
 command  | description
 ------------- | ------------- 
 :tags |display the tags stack
@@ -132,7 +162,9 @@ command  | description
 :tl | goes to last in list
 
 
-##quickfix window
+## quickfix window
+
+
 command  | description
 ------------- | ------------- 
 :copen | Open the quickfix window  
@@ -143,7 +175,9 @@ command  | description
 :cc{num} | Go to the error by number  
 
 
-##Navigation
+## Navigation
+
+
 key  | move to 
 ------------- | ------------- 
 %	|End of construct
@@ -159,9 +193,11 @@ gg	|beginning of file
 G	|end of file
 
 
-##Addon References
+## Addon References
 
-###ctags <http://ctags.sourceforge.net/>
+### ctags <http://ctags.sourceforge.net/>
+
+
 command  | effect 
 ------------- | ------------- 
 :!ctags -R |jump to first tag that matches word under the cursor  
@@ -173,7 +209,9 @@ g&lt;C-]&gt; | present a list of choices if there is more than a single tag to j
 :pop or &lt;C-t&gt; | Prompt user to select from multiple matches for the word under the cursor.  
 :tselect | Prompt user to choose an item from the tag matchlist  
 
-###tcomment <https://github.com/tomtom/tcomment_vim>
+### tcomment <https://github.com/tomtom/tcomment_vim>
+
+
 command  | description
 ------------- | -------------
 gc{motion} | Toggle comments (for small comments within one line the &amp;filetype_inline style will be used, if defined)  
@@ -183,7 +221,9 @@ gCc | Comment the current line
 &lt;C- _ &gt;&lt;C- _ &gt; | :TComment  
 &lt;C- _ &gt;b | :TCommentBlock  
 
-###vim-rails <https://github.com/tpope/vim-rails>
+### vim-rails <https://github.com/tpope/vim-rails>
+
+
 command  | description
 ------------- | ------------- 
 :A | Alternate  
@@ -193,7 +233,9 @@ command  | description
 :Rcontroller | Controller
 :help rails-navigation | Help on this plugin.
 
-###vim-surround <https://github.com/tpope/vim-surround>
+### vim-surround <https://github.com/tpope/vim-surround>
+
+
 command  | description
 ------------- | -------------
 cs&lt;current&gt;&lt;new&gt; | change old delimeter to new  
@@ -208,7 +250,9 @@ S# | in visual mode, rails ERB tag (requires vim-rails)
 &lt;C-s&gt;# | rails ERB tag (requires vim-rails)  
 
 
-##miscellaneous
+## miscellaneous
+
+
 command  | description
 ------------- | ------------- 
 v | enable characterwise Visual mode  
