@@ -9,7 +9,7 @@ ctrl + d | Scroll down
 H | Go to Head of page
 M | Go to middle of page
 L | Go to lower part of page
-^ | To the first character of the line  
+0 | To the first character of the line  
 $ | To the last character of the line  
 w | Count words forward 
 W | Count words forward (different definition)
