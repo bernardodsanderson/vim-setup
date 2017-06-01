@@ -20,6 +20,7 @@ Hybrid Material for color scheme
 - ack.vim (git clone https://github.com/mileszs/ack.vim.git)
 - nerdtree-git-plugin (git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git)
 - vim-es6 (git clone https://github.com/isRuslan/vim-es6.git)
+- vim-autoclose (git clone git clone https://github.com/townk/vim-autoclose)
 - vim-multiple-cursors (git clone https://github.com/terryma/vim-multiple-cursors.git)
 
 
@@ -39,6 +40,7 @@ Hybrid Material for color scheme
     - nerdtree-git-plugin
     - vim-es6
     - vim-commentary
+    - vim-autoclose
 - colors
     - hybrid_material.vim
     - material-neutral.vim
