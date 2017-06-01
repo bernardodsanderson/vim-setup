@@ -13,7 +13,7 @@ Hybrid Material for color scheme
 - vim-fugitive (git clone git://github.com/tpope/vim-fugitive.git)
 - vim-gitgutter (git clone git://github.com/airblade/vim-gitgutter.git)
 - vim-jsx (git clone https://github.com/mxw/vim-jsx.git)
-- vim-json (git clone https://github.com/elzr/vim-json.git)
+- vim-commentary (git clone https://github.com/tpope/vim-commentary.git)
 - syntastic (git clone https://github.com/scrooloose/syntastic.git)
 - emmet-vim (git clone https://github.com/mattn/emmet-vim.git)
 - ctrlp.vim (git clone https://github.com/ctrlpvim/ctrlp.vim.git)
@@ -32,13 +32,13 @@ Hybrid Material for color scheme
     - vim-fugitive
     - vim-gitgutter
     - vim-jsx
-    - vim-json
     - syntastic
     - emmet-vim
     - ctrlp.vim
     - ack.vim
     - nerdtree-git-plugin
     - vim-es6
+    - vim-commentary
 - colors
     - hybrid_material.vim
     - material-neutral.vim
