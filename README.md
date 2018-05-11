@@ -49,8 +49,8 @@ y{motion} | Yank into register
 g~{motion}| Toggle case  
 gu{motion}| Make lowercase  
 gU{motion}| Make uppercase  
-&gt;{motion} | Shift right  
-&lt;{motion} | Shift left  
+>{motion} | Shift right  
+<{motion} | Shift left  
 ={motion} | Auto-indent
 
 
