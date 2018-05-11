@@ -51,12 +51,6 @@ gU{motion}| Make uppercase
 &lt;{motion} | Shift left  
 ={motion} | Auto-indent
 
-## buffer management
-
-
-command  | description
-------------- | ------------- 
-&lt;C-\^&gt; or &lt;C-6&gt; | Switch to the buffer you just left
 
 ## split windows
 
