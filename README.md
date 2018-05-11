@@ -39,22 +39,6 @@ ci{brackets} | Change inside ", ', (), {}, [] or <>
 
 ## motions
 
-
-motion  | description  
-------------- | ------------- 
-h | Count characters left  
-l | Count characters right  
-^ | To the first character of the line  
-$ | To the last character of the line  
-f&lt;char&gt;  | To the counth character occurrence to the right.  F&lt;char&gt; to the counth character occurrence to the left  
-t&lt;char&gt;	| To 1 character just before the counth character occurrence to the right  
-T&lt;char&gt;	| To 1 character just before the counth character occurrence to the left  
-w | Count words forward 
-W | Count words forward (different definition for what a word is, includes special characters and such)
-e | Count forward to the end of word  
-b | Count words backward  
-i&lt;{&lt;"'&gt; | Inside something like inside brackets or parenthesis for example  
-
 trigger  | effect 
 ------------- | ------------- 
 c{motion} | Change    
